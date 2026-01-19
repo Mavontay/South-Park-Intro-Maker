@@ -103,6 +103,36 @@ Each game includes:
 - Credits style descriptions
 - Closing logo sequences
 
+### 🎮 Video Game Crossovers (12 Epic Mashups!)
+South Park games meet other iconic gaming franchises:
+
+**The Stick of Truth Crossovers:**
+- × The Elder Scrolls (Skyrim) - Fantasy meets epic high fantasy
+- × Kingdom Hearts - Disney magic meets Colorado chaos
+- × Dark Souls - YOU DIED in South Park
+
+**The Fractured But Whole Crossovers:**
+- × Marvel's Avengers - Kid heroes meet real Avengers
+- × Batman Arkham - Dark detective gameplay
+- × Spider-Man PS4 - Web-slinging through South Park
+
+**Phone Destroyer Crossovers:**
+- × Clash Royale - Card battle royale mashup
+- × Pokémon GO - AR character catching
+
+**SNOW DAY! Crossovers:**
+- × Left 4 Dead - Co-op survival horror
+- × Overwatch - Hero shooter meets snow day
+- × Monster Hunter - Hunt giant snow monsters
+
+**Special:**
+- × Super Smash Bros - South Park joins the ultimate crossover!
+
+Each crossover includes:
+- Detailed concept and description
+- Gameplay feature lists
+- Theme and genre information
+
 ### 🌈 Even MORE Crossovers! (10+ Additional)
 New crossover concepts with popular franchises:
 - **Lalaloopsy Sewn-iverse** - Button-eyed characters in Colorado
@@ -195,6 +225,7 @@ Write and save your own custom South Park intro lines:
 - **15** Musical style variations
 - **5** SiIvaGunner rip concepts
 - **4** Video game end credits
+- **12** Video game crossover concepts
 - **Random** Episode generator
 - **Unlimited** custom combinations via generators
 

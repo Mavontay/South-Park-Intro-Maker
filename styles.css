@@ -777,6 +777,80 @@ footer {
     font-size: 0.9em;
 }
 
+/* Game Crossovers Grid */
+.game-crossovers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 25px;
+}
+
+.game-crossover-card {
+    background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+    border: 3px solid #3f51b5;
+    border-radius: 12px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.game-crossover-card::before {
+    content: '🎮';
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 100px;
+    opacity: 0.1;
+}
+
+.game-crossover-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(63,81,181,0.5);
+    border-color: #00bcd4;
+}
+
+.game-crossover-card h3 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+}
+
+.crossover-games {
+    background: rgba(0,0,0,0.3);
+    padding: 12px;
+    border-radius: 8px;
+    margin: 15px 0;
+    font-size: 0.9em;
+}
+
+.crossover-concept {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.gameplay-features {
+    background: rgba(0,188,212,0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.gameplay-features ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.gameplay-features li {
+    margin: 5px 0;
+}
+
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 10px;

@@ -600,6 +600,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (typeof loadExtendedIntros !== 'undefined') loadExtendedIntros();
         if (typeof loadMoreCrossovers !== 'undefined') loadMoreCrossovers();
         if (typeof loadVideoGames !== 'undefined') loadVideoGames();
+        if (typeof loadGameCrossovers !== 'undefined') loadGameCrossovers();
         if (typeof initializeSilvaGunner !== 'undefined') initializeSilvaGunner();
         if (typeof initializeEpisodeGenerator !== 'undefined') initializeEpisodeGenerator();
     }, 100);

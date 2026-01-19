@@ -233,6 +233,214 @@ const silvaGunnerRips = [
     }
 ];
 
+// ===== DATA: VIDEO GAME CROSSOVERS =====
+const videoGameCrossovers = [
+    {
+        id: "gamecross1",
+        title: "The Stick of Truth × The Elder Scrolls",
+        spGame: "The Stick of Truth",
+        crossoverGame: "Skyrim / Elder Scrolls",
+        concept: "Fantasy RPG meets epic high fantasy",
+        description: "The kids' medieval fantasy game becomes real Skyrim-level adventure with dragons, Daedric princes, and shouts.",
+        features: [
+            "Fus-Ro-Dah meets Nagasaki powers",
+            "Visit actual Skyrim locations",
+            "Dragons terrorize South Park",
+            "Cartman becomes the Dragonborn"
+        ],
+        theme: "Epic Fantasy RPG"
+    },
+    {
+        id: "gamecross2",
+        title: "The Stick of Truth × Kingdom Hearts",
+        spGame: "The Stick of Truth",
+        crossoverGame: "Kingdom Hearts",
+        concept: "Disney magic meets Colorado chaos",
+        description: "Sora, Donald, and Goofy arrive in South Park. The boys must help defeat the Heartless while maintaining their fantasy game.",
+        features: [
+            "Keyblades and magic spells",
+            "Disney characters react to South Park humor",
+            "Organization XIII recruits Cartman",
+            "Kingdom Hearts-style boss battles"
+        ],
+        theme: "Action RPG Adventure"
+    },
+    {
+        id: "gamecross3",
+        title: "The Fractured But Whole × Marvel's Avengers",
+        spGame: "The Fractured But Whole",
+        crossoverGame: "Marvel's Avengers",
+        concept: "Kid superheroes meet actual Avengers",
+        description: "The real Avengers show up in South Park and the boys must prove they're heroes too. Coon & Friends vs Hydra!",
+        features: [
+            "Team up with Iron Man, Captain America, Thor",
+            "Avengers Tower South Park branch",
+            "Epic superhero team battles",
+            "Cartman tries to join the Avengers"
+        ],
+        theme: "Superhero Team-Up"
+    },
+    {
+        id: "gamecross4",
+        title: "The Fractured But Whole × Batman Arkham Series",
+        spGame: "The Fractured But Whole",
+        crossoverGame: "Batman: Arkham Knight",
+        concept: "Dark detective gameplay meets South Park",
+        description: "Mysterion teams up with Batman to stop a new threat. Features Arkham-style combat and detective mode in South Park.",
+        features: [
+            "Detective mode investigation",
+            "Batmobile in South Park streets",
+            "Arkham-style combat system",
+            "Riddler challenges around town"
+        ],
+        theme: "Dark Superhero Action"
+    },
+    {
+        id: "gamecross5",
+        title: "Phone Destroyer × Clash Royale",
+        spGame: "Phone Destroyer",
+        crossoverGame: "Clash Royale",
+        concept: "Card battle royale mashup",
+        description: "South Park characters as Clash Royale cards. Real-time strategy battles with both universes combined.",
+        features: [
+            "South Park + Clash Royale card deck",
+            "Arena battles in South Park",
+            "Clan wars with both franchises",
+            "Special crossover legendary cards"
+        ],
+        theme: "Mobile Strategy Card Game"
+    },
+    {
+        id: "gamecross6",
+        title: "Phone Destroyer × Pokémon GO",
+        spGame: "Phone Destroyer",
+        crossoverGame: "Pokémon GO",
+        concept: "AR location-based South Park game",
+        description: "Catch South Park characters in real-world locations. Battle gyms and raid bosses featuring the kids and townspeople.",
+        features: [
+            "AR character catching",
+            "Real-world South Park locations",
+            "Raid battles with iconic villains",
+            "Trading system for characters"
+        ],
+        theme: "AR Mobile Adventure"
+    },
+    {
+        id: "gamecross7",
+        title: "Snow Day × Left 4 Dead",
+        spGame: "SOUTH PARK: SNOW DAY!",
+        crossoverGame: "Left 4 Dead 2",
+        concept: "Co-op survival horror in snow",
+        description: "The snow day turns into zombie apocalypse survival. 4-player co-op fighting through infected South Park.",
+        features: [
+            "4-player co-op survival",
+            "Special infected South Park villains",
+            "Safe houses around town",
+            "Crescendo events and finales"
+        ],
+        theme: "Co-op Survival Horror"
+    },
+    {
+        id: "gamecross8",
+        title: "Snow Day × Overwatch",
+        spGame: "SOUTH PARK: SNOW DAY!",
+        crossoverGame: "Overwatch 2",
+        concept: "Hero shooter meets snow day",
+        description: "South Park characters become Overwatch-style heroes with unique abilities and ultimates in snowy team battles.",
+        features: [
+            "Hero-based character classes",
+            "Ultimate abilities for each character",
+            "Team objective-based modes",
+            "South Park maps with Overwatch gameplay"
+        ],
+        theme: "Team-Based Hero Shooter"
+    },
+    {
+        id: "gamecross9",
+        title: "Snow Day × Monster Hunter",
+        spGame: "SOUTH PARK: SNOW DAY!",
+        crossoverGame: "Monster Hunter World",
+        concept: "Hunt monsters in Colorado winter",
+        description: "Giant snow monsters appear and the boys must hunt them Monster Hunter style with crafted weapons and armor.",
+        features: [
+            "Hunt massive snow monsters",
+            "Craft weapons from monster parts",
+            "Co-op monster hunting",
+            "South Park-themed armor sets"
+        ],
+        theme: "Co-op Monster Hunting"
+    },
+    {
+        id: "gamecross10",
+        title: "All Games × Super Smash Bros",
+        spGame: "All South Park Games",
+        crossoverGame: "Super Smash Bros Ultimate",
+        concept: "South Park joins the ultimate crossover",
+        description: "South Park characters join Smash Bros as playable fighters. Multiple stages and music from all SP games.",
+        features: [
+            "Multiple South Park fighters",
+            "Stages from each game",
+            "Final Smash ultimate attacks",
+            "Classic mode storylines"
+        ],
+        theme: "Platform Fighting"
+    },
+    {
+        id: "gamecross11",
+        title: "Stick of Truth × Dark Souls",
+        spGame: "The Stick of Truth",
+        crossoverGame: "Dark Souls",
+        concept: "YOU DIED in South Park",
+        description: "The fantasy game becomes brutally difficult Dark Souls-style with challenging boss fights and stamina management.",
+        features: [
+            "Dark Souls difficulty and mechanics",
+            "Bonfire checkpoints around town",
+            "Epic boss fights with townspeople",
+            "Prepare to Die: Colorado Edition"
+        ],
+        theme: "Challenging Action RPG"
+    },
+    {
+        id: "gamecross12",
+        title: "Fractured But Whole × Spider-Man PS4",
+        spGame: "The Fractured But Whole",
+        crossoverGame: "Marvel's Spider-Man",
+        concept: "Web-slinging through South Park",
+        description: "Mysterion and Toolshed gain Spider-Man's abilities. Swing through South Park stopping crimes and villains.",
+        features: [
+            "Web-swinging traversal",
+            "Crime-stopping side missions",
+            "Photo mode for superhero poses",
+            "Villain hideout takedowns"
+        ],
+        theme: "Open World Superhero"
+    }
+];
+
+// ===== DATA: EVEN MORE GAME CROSSOVERS =====
+const bonusGameCrossovers = [
+    {
+        id: "bonus1",
+        title: "The boys play Minecraft in South Park",
+        description: "Crafting and building meets the town"
+    },
+    {
+        id: "bonus2",
+        title: "Fortnite Battle Royale: South Park Edition",
+        description: "100 characters drop into South Park"
+    },
+    {
+        id: "bonus3",
+        title: "Among Us: South Park Crewmates",
+        description: "Find the impostor in town"
+    },
+    {
+        id: "bonus4",
+        title: "Fall Guys: South Park Stumble Show",
+        description: "Chaotic party game mayhem"
+    }
+];
+
 // ===== EPISODE GENERATOR DATA =====
 const episodeTitles = [
     "The", "A", "An", "Super", "The Return of", "The Mystery of",
@@ -328,6 +536,38 @@ function loadVideoGames() {
             </div>
         `;
         card.addEventListener('click', () => selectGame(game));
+        grid.appendChild(card);
+    });
+}
+
+function loadGameCrossovers() {
+    const grid = document.getElementById('gameCrossoversGrid');
+    if (!grid) return;
+
+    grid.innerHTML = '';
+    videoGameCrossovers.forEach(crossover => {
+        const card = document.createElement('div');
+        card.className = 'game-crossover-card';
+        card.innerHTML = `
+            <h3>${crossover.title}</h3>
+            <div class="crossover-games">
+                <strong>🎮 Games:</strong> ${crossover.spGame} × ${crossover.crossoverGame}
+            </div>
+            <div class="crossover-concept">
+                <strong>Concept:</strong> ${crossover.concept}<br>
+                <p style="margin-top: 10px;">${crossover.description}</p>
+            </div>
+            <div class="gameplay-features">
+                <strong>⚡ Gameplay Features:</strong>
+                <ul>
+                    ${crossover.features.map(feature => `<li>${feature}</li>`).join('')}
+                </ul>
+            </div>
+            <div style="margin-top: 15px; padding: 10px; background: rgba(0,0,0,0.2); border-radius: 5px; text-align: center;">
+                <strong>Theme:</strong> ${crossover.theme}
+            </div>
+        `;
+        card.addEventListener('click', () => selectGameCrossover(crossover));
         grid.appendChild(card);
     });
 }
@@ -533,6 +773,26 @@ function selectGame(game) {
     ]);
 }
 
+function selectGameCrossover(crossover) {
+    currentIntro = {
+        type: 'gamecrossover',
+        data: crossover
+    };
+    updateNowPlaying(crossover.title);
+    displayLyrics([
+        crossover.title,
+        '',
+        `${crossover.spGame} × ${crossover.crossoverGame}`,
+        '',
+        `Concept: ${crossover.concept}`,
+        '',
+        crossover.description,
+        '',
+        'Features:',
+        ...crossover.features.map(f => `• ${f}`)
+    ]);
+}
+
 function playSilvaRip() {
     alert('Playing SiIvaGunner style rip!\n\nNote: This is a concept generator. Actual audio would require music production.');
 }
@@ -541,13 +801,16 @@ function playSilvaRip() {
 window.generateSilvaRip = generateSilvaRip;
 window.generateEpisode = generateEpisode;
 window.playSilvaRip = playSilvaRip;
+window.loadGameCrossovers = loadGameCrossovers;
 
 // Export new data
 window.extendedIntros = extendedIntros;
 window.moreCrossovers = moreCrossovers;
 window.videoGameCredits = videoGameCredits;
+window.videoGameCrossovers = videoGameCrossovers;
 window.silvaGunnerRips = silvaGunnerRips;
 
 console.log('🚀 SUPER MASSIVE Extensions Loaded!');
 console.log(`📊 Added: ${extendedIntros.length} extended intros, ${moreCrossovers.length} more crossovers`);
-console.log(`🎮 ${videoGameCredits.length} video games, ${silvaGunnerRips.length} SiIvaGunner rip concepts`);
+console.log(`🎮 ${videoGameCredits.length} video games, ${videoGameCrossovers.length} game crossovers`);
+console.log(`🎪 ${silvaGunnerRips.length} SiIvaGunner rip concepts`);
