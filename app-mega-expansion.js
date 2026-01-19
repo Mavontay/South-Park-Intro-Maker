@@ -133,6 +133,24 @@ const expandedAUIntros = [
             "So come on down to South Park and join the Demon Slayer Corps!"
         ],
         features: ["Breathing styles", "Demon battles", "Nichirin swords", "Hashira training"]
+    },
+    {
+        id: "au17",
+        name: "Block 13 (Kuwait/Middle Eastern South Park)",
+        description: "Kuwaiti animated comedy inspired by South Park",
+        concept: "Middle Eastern culture meets South Park style animation and humor",
+        lyrics: [
+            "أنا رايح Block 13، راح أقضي وقت حلو (Ana rayeh Block 13, rah agadhi wagt helw)",
+            "I'm goin' down to Block 13, gonna have myself a time",
+            "Kuwaiti faces everywhere, Gulf folks without temptation",
+            "Goin' to Block 13, gonna leave my worries behind",
+            "Ample shisha day or night, people shouting: 'يلا! Yalla!'",
+            "Headin' down to Block 13, gonna see Arabic satire shine",
+            "Shawarma! Diwaniya! Mashallah!",
+            "So come on down to Block 13 and experience Gulf comedy of mine!",
+            "تعال Block 13! (Ta'al Block 13!)"
+        ],
+        features: ["Arabic dialogue mix", "Kuwaiti cultural satire", "South Park animation style", "Gulf region humor", "Diwaniya hangouts", "Middle Eastern social commentary"]
     }
 ];
 
@@ -215,6 +233,14 @@ const evenMoreCrossoverLines = [
         description: "Baby Yoshi from New Super Mario Bros. U sings the South Park theme",
         concept: "Musical Baby Yoshi brings Nintendo magic to Colorado",
         features: ["Baby Yoshi vocal effects", "Singing stuns enemies", "Musical bubbles", "Mario power-ups"]
+    },
+    {
+        id: "cross32",
+        franchise: "Block 13 (Kuwait/Middle Eastern South Park)",
+        line: "أنا رايح Block 13، راح أقضي وقت حلو! (Ana rayeh Block 13, rah agadhi wagt helw!)",
+        description: "Kuwaiti animated series heavily inspired by South Park style",
+        concept: "Middle Eastern humor meets South Park animation",
+        features: ["Arabic dialogue", "Kuwaiti cultural references", "South Park animation style", "Gulf region satire"]
     }
 ];
 
@@ -326,6 +352,19 @@ const additionalMashups = [
             singingMechanic: "Musical bubbles stun enemies",
             powerUps: "Mario power-ups in South Park",
             coopMode: "4-player cooperative gameplay"
+        }
+    },
+    {
+        id: "mash17",
+        name: "South Park × Block 13",
+        description: "Colorado meets Kuwait - Western satire meets Middle Eastern comedy",
+        combination: "American animation meets Arabic-style South Park parody",
+        theme: "Cross-cultural satirical comedy",
+        features: {
+            culturalBlend: "American and Kuwaiti humor styles",
+            bilingualDialogue: "English and Arabic mixed dialogue",
+            sharedStyle: "Both use South Park animation aesthetic",
+            socialCommentary: "Dual perspective satire on both cultures"
         }
     }
 ];
@@ -778,3 +817,4 @@ console.log(`🎵 ${introStyleGenerators.length} style generators, ${additionalM
 console.log(`📺 ${seasonSpecificIntros.length} season-specific intros`);
 console.log(`🎮 Including Baby Yoshi Singing from NSMBU!`);
 console.log(`📺 ${productionLogos.length} production logos (Opening/Closing)!`);
+console.log(`🇰🇼 Including Block 13 (Kuwait/Middle Eastern South Park)!`);
