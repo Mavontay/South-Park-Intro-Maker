@@ -151,6 +151,24 @@ const expandedAUIntros = [
             "تعال Block 13! (Ta'al Block 13!)"
         ],
         features: ["Arabic dialogue mix", "Kuwaiti cultural satire", "South Park animation style", "Gulf region humor", "Diwaniya hangouts", "Middle Eastern social commentary"]
+    },
+    {
+        id: "au18",
+        name: "Lalaloopsy Sewn-iverse (South Park × Lalaloopsy)",
+        description: "Button-eyed dolls come to life in Lalaloopsy Land",
+        concept: "Sewn on a magical day, stitched together adventures",
+        lyrics: [
+            "I'm skippin' down to Lalaloopsy Land, gonna have a sewn-derful time!",
+            "Button faces everywhere, stitched-up folks without temptation",
+            "Headin' to Lalaloopsy Land, gonna leave reality behind",
+            "Ample buttons day or night, dollies shouting: 'We're Sew Amazing!'",
+            "Skippin' through Lalaloopsy Land, gonna find some magic thread",
+            "Crumbs! Mittens! Spot! Jewel!",
+            "Bea Spells-a-Lot! Pillow Featherbed!",
+            "So come sew down to Lalaloopsy Land and meet some dollies of mine!",
+            "We're Sew Lalaloopsy! ✨🧵"
+        ],
+        features: ["Button-eyed characters", "Sewn on different days", "Pet companions", "Whimsical personalities", "Magical stitching", "Lalaloopsy Land adventures"]
     }
 ];
 
@@ -241,6 +259,70 @@ const evenMoreCrossoverLines = [
         description: "Kuwaiti animated series heavily inspired by South Park style",
         concept: "Middle Eastern humor meets South Park animation",
         features: ["Arabic dialogue", "Kuwaiti cultural references", "South Park animation style", "Gulf region satire"]
+    },
+    {
+        id: "cross33",
+        franchise: "Crumbs Sugar Cookie (Lalaloopsy)",
+        line: "I'm skippin' down to South Park, gonna bake somethin' sweet!",
+        description: "Crumbs Sugar Cookie brings her baking skills to Colorado",
+        concept: "Button-eyed baker meets mountain town",
+        features: ["Baking adventures", "Sweet treats", "Pet mouse companion", "Sewn from a chef's apron"]
+    },
+    {
+        id: "cross34",
+        franchise: "Mittens Fluff 'N' Stuff (Lalaloopsy)",
+        line: "I'm cuddlin' down to South Park, gonna snuggle through the snow!",
+        description: "Mittens brings winter warmth to Colorado mountains",
+        concept: "Cozy Lalaloopsy in the perfect snowy setting",
+        features: ["Winter adventures", "Polar bear pet", "Sewn from an Eskimo's scarf", "Snow activities"]
+    },
+    {
+        id: "cross35",
+        franchise: "Spot Splatter Splash (Lalaloopsy)",
+        line: "I'm paintin' down to South Park, gonna splash some colors today!",
+        description: "Spot brings artistic chaos to South Park",
+        concept: "Paint-splattered creativity meets Colorado",
+        features: ["Art adventures", "Zebra pet", "Sewn from an artist's apron", "Colorful messes"]
+    },
+    {
+        id: "cross36",
+        franchise: "Jewel Sparkles (Lalaloopsy)",
+        line: "I'm sparklin' down to South Park, gonna shine so bright!",
+        description: "Jewel brings glitter and glamour to the mountains",
+        concept: "Fancy princess doll in mountain town",
+        features: ["Royal adventures", "Persian cat pet", "Sewn from a princess dress", "Sparkly magic"]
+    },
+    {
+        id: "cross37",
+        franchise: "Bea Spells-a-Lot (Lalaloopsy)",
+        line: "I'm readin' down to South Park, gonna spell out some fun!",
+        description: "Bea brings her books and smarts to Colorado",
+        concept: "Smart bookworm doll visits South Park",
+        features: ["Reading adventures", "Owl pet", "Sewn from a school uniform", "Spelling bee champion"]
+    },
+    {
+        id: "cross38",
+        franchise: "Pillow Featherbed (Lalaloopsy)",
+        line: "I'm floatin' down to South Park, gonna have sweet dreams tonight! *yawn*",
+        description: "Sleepy Pillow brings bedtime magic to South Park",
+        concept: "Always-sleepy doll in Colorado",
+        features: ["Dreamy adventures", "Sheep pet", "Sewn from a blanket", "Pajama party vibes"]
+    },
+    {
+        id: "cross39",
+        franchise: "Peanut Big Top (Lalaloopsy)",
+        line: "I'm performin' down to South Park, gonna put on a show!",
+        description: "Peanut brings circus excitement to the mountains",
+        concept: "Elephant trainer doll visits Colorado",
+        features: ["Circus adventures", "Elephant pet", "Sewn from a circus tent", "Big top performances"]
+    },
+    {
+        id: "cross40",
+        franchise: "Lalaloopsy Sewn-iverse (All Characters)",
+        line: "We're Sew Lalaloopsy, skippin' to South Park, button eyes and stitched hearts!",
+        description: "The entire Lalaloopsy crew visits South Park",
+        concept: "Button-eyed dolls meet the boys",
+        features: ["All Lalaloopsy characters", "Pet companions", "Magical stitching", "Sewn-iverse crossover"]
     }
 ];
 
@@ -365,6 +447,72 @@ const additionalMashups = [
             bilingualDialogue: "English and Arabic mixed dialogue",
             sharedStyle: "Both use South Park animation aesthetic",
             socialCommentary: "Dual perspective satire on both cultures"
+        }
+    },
+    {
+        id: "mash18",
+        name: "South Park × Lalaloopsy",
+        description: "Button-eyed dolls meet crude cutout kids",
+        combination: "Whimsical stitched world meets satirical Colorado",
+        theme: "Innocent dolls meet adult comedy",
+        features: {
+            styleClash: "Cute button eyes vs crude animation",
+            petCompanions: "Lalaloopsy pets meet South Park animals",
+            magicVsSatire: "Magical stitching vs reality-based humor",
+            crossover: "Sewn-iverse characters visit South Park"
+        }
+    },
+    {
+        id: "mash19",
+        name: "South Park × Lalaloopsy: Crumbs' Bake-Off",
+        description: "Crumbs Sugar Cookie hosts a South Park baking competition",
+        combination: "Sweet baking meets Colorado chaos",
+        theme: "Baking competition comedy",
+        features: {
+            bakingCompetition: "Crumbs judges South Park's terrible cooking",
+            sweetVsSavory: "Desserts vs Cartman's snack obsession",
+            kitchenChaos: "Button-eyed baker meets kitchen disasters",
+            petMouse: "Crumbs' mouse pet explores South Park"
+        }
+    },
+    {
+        id: "mash20",
+        name: "South Park × Lalaloopsy: Mittens' Snow Day",
+        description: "Mittens Fluff 'N' Stuff brings eternal winter to Colorado",
+        combination: "Eskimo doll meets mountain snow",
+        theme: "Winter wonderland chaos",
+        features: {
+            snowAdventures: "Mittens creates massive snowstorms",
+            polarBearPet: "Pet polar bear in South Park",
+            winterActivities: "Snow forts and sledding battles",
+            cozyVsChaos: "Mittens' warmth vs South Park mayhem"
+        }
+    },
+    {
+        id: "mash21",
+        name: "South Park × Lalaloopsy: Spot's Art Gallery",
+        description: "Spot Splatter Splash opens an art gallery in South Park",
+        combination: "Artistic creativity meets crude drawings",
+        theme: "Art world comedy",
+        features: {
+            artChaos: "Paint splatters everywhere",
+            zebraPet: "Pet zebra causes confusion",
+            creativeClash: "Fine art vs stick figure drawings",
+            colorfulMesses: "Spot's paintings vs South Park's style"
+        }
+    },
+    {
+        id: "mash22",
+        name: "South Park × Lalaloopsy Sewn-iverse",
+        description: "The entire Lalaloopsy Land merges with South Park",
+        combination: "Button-eyed universe meets Colorado reality",
+        theme: "Complete universe collision",
+        features: {
+            worldMerge: "Lalaloopsy Land appears in mountains",
+            allCharacters: "Every Lalaloopsy doll visits South Park",
+            petParade: "All Lalaloopsy pets roam Colorado",
+            sewingMagic: "Magical thread transforms South Park",
+            buttonEyeEpidemic: "Everyone gets button eyes"
         }
     }
 ];
@@ -818,3 +966,4 @@ console.log(`📺 ${seasonSpecificIntros.length} season-specific intros`);
 console.log(`🎮 Including Baby Yoshi Singing from NSMBU!`);
 console.log(`📺 ${productionLogos.length} production logos (Opening/Closing)!`);
 console.log(`🇰🇼 Including Block 13 (Kuwait/Middle Eastern South Park)!`);
+console.log(`🧵 Including Lalaloopsy Sewn-iverse with 8 characters + 5 mashups!`);
