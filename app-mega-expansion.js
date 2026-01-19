@@ -169,6 +169,60 @@ const expandedAUIntros = [
             "We're Sew Lalaloopsy! ✨🧵"
         ],
         features: ["Button-eyed characters", "Sewn on different days", "Pet companions", "Whimsical personalities", "Magical stitching", "Lalaloopsy Land adventures"]
+    },
+    {
+        id: "au19",
+        name: "We're Lalaloopsy (2014/2017 Reboot)",
+        description: "Modern reboot dolls with new adventures",
+        concept: "New generation of button-eyed friends",
+        lyrics: [
+            "We're Lalaloopsy! Skippin' down to South Park!",
+            "New button faces everywhere, stitched-up 2.0 friends without temptation",
+            "We're goin' to South Park, gonna show our sew-tastic style",
+            "Ample creativity day or night, dollies shouting: 'We're back and better!'",
+            "Headin' to South Park with new adventures to find",
+            "Ace! Prairie! Forest! Marina!",
+            "We're the new generation, stitched with innovation!",
+            "So come skip down to South Park and meet the We're Lalaloopsy crew!",
+            "We're Lalaloopsy! (Yeah!) ✨🧵"
+        ],
+        features: ["2014/2017 reboot characters", "New modern designs", "Updated personalities", "Fresh adventures", "Next generation dolls"]
+    },
+    {
+        id: "au20",
+        name: "L.A.L.A Prep School (Teen Lalaloopsy)",
+        description: "Teen versions attend preppy boarding school",
+        concept: "Lalaloopsy Academy for Learnin' Arts - Prep school adventures",
+        lyrics: [
+            "I'm studying at L.A.L.A Prep, heading to South Park High!",
+            "Teen button faces everywhere, preppy folks without temptation",
+            "Goin' to South Park Academy, gonna ace every class",
+            "Ample homework day or night, students shouting: 'Study time!'",
+            "Headin' to South Park Prep, gonna graduate with style",
+            "Bea's the valedictorian! Jewel's prom queen!",
+            "We're L.A.L.A Prep, the smartest dolls you've seen!",
+            "So come enroll at South Park and join our preppy team!",
+            "L.A.L.A Prep - Sew Smart! 🎓🧵"
+        ],
+        features: ["Teen Lalaloopsy characters", "Prep school setting", "Academic adventures", "Teenage drama", "Button-eyed high schoolers"]
+    },
+    {
+        id: "au21",
+        name: "Sewnified Multifandom Lalaloopsy",
+        description: "Characters from other franchises sewn into Lalaloopsy style",
+        concept: "Multifandom crossover dolls with button eyes",
+        lyrics: [
+            "We're Sewnified! Every fandom stitched together!",
+            "Button faces from every world, crossover folks without temptation",
+            "Goin' to South Park, with fandoms sewn as one",
+            "Ample crossovers day or night, dollies shouting: 'Sewnified!'",
+            "Headin' to South Park with button-eyed versions of everyone",
+            "Sewnified Elsa! Sewnified Mario! Sewnified Sonic!",
+            "Every character gets button eyes and magic thread!",
+            "So come get sewnified in South Park, join the stitched parade!",
+            "Sewnified Multifandom! ✨🧵🎮"
+        ],
+        features: ["Multifandom crossovers", "Any character in Lalaloopsy style", "Button-eye transformations", "Cross-universe stitching", "Ultimate crossover potential"]
     }
 ];
 
@@ -323,6 +377,110 @@ const evenMoreCrossoverLines = [
         description: "The entire Lalaloopsy crew visits South Park",
         concept: "Button-eyed dolls meet the boys",
         features: ["All Lalaloopsy characters", "Pet companions", "Magical stitching", "Sewn-iverse crossover"]
+    },
+    {
+        id: "cross41",
+        franchise: "Ace Fender Bender (We're Lalaloopsy)",
+        line: "We're Lalaloopsy! I'm racin' down to South Park, gonna win the day!",
+        description: "Ace from the 2017 reboot brings racing adventures",
+        concept: "Race car doll meets Colorado",
+        features: ["Racing adventures", "Car pet", "Sewn from racing gear", "2017 reboot character"]
+    },
+    {
+        id: "cross42",
+        franchise: "Prairie Dusty Trails (We're Lalaloopsy)",
+        line: "We're Lalaloopsy! I'm gallopin' to South Park, gonna ride all day!",
+        description: "Prairie from the reboot brings western adventures",
+        concept: "Cowgirl doll visits mountain town",
+        features: ["Western adventures", "Horse pet", "Sewn from cowgirl outfit", "Reboot series"]
+    },
+    {
+        id: "cross43",
+        franchise: "Forest Evergreen (We're Lalaloopsy)",
+        line: "We're Lalaloopsy! I'm hikin' to South Park, gonna explore nature!",
+        description: "Forest brings outdoor adventures to Colorado",
+        concept: "Nature-loving doll in the mountains",
+        features: ["Nature adventures", "Woodland pet", "Sewn from camping gear", "Outdoor explorer"]
+    },
+    {
+        id: "cross44",
+        franchise: "Marina Anchors (We're Lalaloopsy)",
+        line: "We're Lalaloopsy! I'm sailin' to South Park, gonna find the sea!",
+        description: "Marina brings nautical adventures inland",
+        concept: "Sailor doll in landlocked Colorado",
+        features: ["Nautical adventures", "Sea creature pet", "Sewn from sailor outfit", "Ocean dreamer"]
+    },
+    {
+        id: "cross45",
+        franchise: "Bea Spells-a-Lot (L.A.L.A Prep School)",
+        line: "I'm studying at L.A.L.A Prep, headin' to South Park High as valedictorian!",
+        description: "Teen Bea brings academic excellence to South Park",
+        concept: "Prep school valedictorian visits Colorado",
+        features: ["Teen character", "Academic excellence", "Prep school uniform", "Honor student"]
+    },
+    {
+        id: "cross46",
+        franchise: "Jewel Sparkles (L.A.L.A Prep School)",
+        line: "I'm the prom queen of L.A.L.A Prep, sparklin' down to South Park!",
+        description: "Teen Jewel brings glamour and popularity",
+        concept: "Preppy prom queen in mountain town",
+        features: ["Teen character", "Prom queen", "Fashion icon", "Popular girl"]
+    },
+    {
+        id: "cross47",
+        franchise: "Spot Splatter Splash (L.A.L.A Prep School)",
+        line: "I'm in art class at L.A.L.A Prep, paintin' my way to South Park!",
+        description: "Teen Spot brings artistic flair to high school",
+        concept: "Art student doll visits Colorado",
+        features: ["Teen character", "Art major", "Creative genius", "Paint enthusiast"]
+    },
+    {
+        id: "cross48",
+        franchise: "Sewnified Elsa (Frozen × Lalaloopsy)",
+        line: "Let it sew! I'm skippin' to South Park with button eyes and ice magic!",
+        description: "Elsa gets the Lalaloopsy treatment with button eyes",
+        concept: "Ice queen meets button-eyed doll style",
+        features: ["Sewnified crossover", "Button-eyed Elsa", "Ice magic + stitching", "Disney × Lalaloopsy"]
+    },
+    {
+        id: "cross49",
+        franchise: "Sewnified Mario (Nintendo × Lalaloopsy)",
+        line: "Wahoo! I'm-a jumpin' to South Park with button eyes! Let's-a go!",
+        description: "Mario gets button eyes and becomes a Lalaloopsy doll",
+        concept: "Plumber hero meets button-eyed style",
+        features: ["Sewnified crossover", "Button-eyed Mario", "Gaming icon sewn up", "Nintendo × Lalaloopsy"]
+    },
+    {
+        id: "cross50",
+        franchise: "Sewnified Sonic (SEGA × Lalaloopsy)",
+        line: "Gotta sew fast to South Park! Button eyes and supersonic speed!",
+        description: "Sonic the Hedgehog transformed into button-eyed doll",
+        concept: "Blue blur meets magical stitching",
+        features: ["Sewnified crossover", "Button-eyed Sonic", "Speed + buttons", "SEGA × Lalaloopsy"]
+    },
+    {
+        id: "cross51",
+        franchise: "Sewnified Harry Potter (Wizarding World × Lalaloopsy)",
+        line: "I'm apparating to South Park with button eyes and a magic wand!",
+        description: "The Boy Who Lived gets sewn into Lalaloopsy style",
+        concept: "Wizard meets button-eyed magic",
+        features: ["Sewnified crossover", "Button-eyed wizard", "Magic + stitching", "Wizarding × Lalaloopsy"]
+    },
+    {
+        id: "cross52",
+        franchise: "Sewnified Spider-Man (Marvel × Lalaloopsy)",
+        line: "Your friendly neighborhood button-eyed Spider-Man swingin' to South Park!",
+        description: "Spider-Man gets the Lalaloopsy button-eye treatment",
+        concept: "Web-slinger meets magical thread",
+        features: ["Sewnified crossover", "Button-eyed hero", "Webs + stitching", "Marvel × Lalaloopsy"]
+    },
+    {
+        id: "cross53",
+        franchise: "Sewnified Multifandom Collection",
+        line: "Every character sewn together! Button eyes for everyone in South Park!",
+        description: "Complete multifandom button-eye transformation",
+        concept: "Ultimate crossover of all fandoms in Lalaloopsy style",
+        features: ["All fandoms sewnified", "Universal button eyes", "Infinite crossover potential", "Ultimate mashup"]
     }
 ];
 
@@ -513,6 +671,84 @@ const additionalMashups = [
             petParade: "All Lalaloopsy pets roam Colorado",
             sewingMagic: "Magical thread transforms South Park",
             buttonEyeEpidemic: "Everyone gets button eyes"
+        }
+    },
+    {
+        id: "mash23",
+        name: "South Park × We're Lalaloopsy (2017 Reboot)",
+        description: "New generation dolls bring modern adventures to Colorado",
+        combination: "Reboot series meets mountain town",
+        theme: "Next-gen button eyes",
+        features: {
+            rebootCharacters: "Ace, Prairie, Forest, Marina visit",
+            modernStyle: "Updated 2017 designs",
+            newAdventures: "Fresh storylines in South Park",
+            nextGeneration: "New dolls meet old town"
+        }
+    },
+    {
+        id: "mash24",
+        name: "South Park × L.A.L.A Prep School",
+        description: "Teen Lalaloopsy dolls attend South Park High",
+        combination: "Prep school meets public school",
+        theme: "Button-eyed high school drama",
+        features: {
+            teenDrama: "High school romance and rivalry",
+            academicLife: "Prep students vs South Park kids",
+            promNight: "Button-eyed prom in Colorado",
+            graduationDay: "Sewn diplomas for everyone"
+        }
+    },
+    {
+        id: "mash25",
+        name: "South Park × Sewnified Multifandom",
+        description: "Every franchise gets button eyes in South Park",
+        combination: "Ultimate crossover stitching",
+        theme: "Universal sewnification",
+        features: {
+            infiniteCrossovers: "Any character can be sewnified",
+            buttonEyeEveryone: "Universal transformation",
+            multiverseMerge: "All fandoms in one place",
+            stitchedReality: "South Park becomes crossover central"
+        }
+    },
+    {
+        id: "mash26",
+        name: "South Park × Sewnified Disney Princesses",
+        description: "Disney princesses get button eyes and visit Colorado",
+        combination: "Royal dolls meet mountain kids",
+        theme: "Princess button-eye makeover",
+        features: {
+            buttonEyePrincesses: "All princesses sewnified",
+            royalPets: "Disney animals as Lalaloopsy pets",
+            magicStitching: "Disney magic + thread magic",
+            princessParade: "Royal procession through South Park"
+        }
+    },
+    {
+        id: "mash27",
+        name: "South Park × Sewnified Gaming Icons",
+        description: "Mario, Sonic, and gaming legends get button eyes",
+        combination: "Gaming crossover meets Lalaloopsy style",
+        theme: "Button-eyed game characters",
+        features: {
+            gamerDolls: "All gaming icons sewnified",
+            powerUpButtons: "Game mechanics + stitching",
+            pixelThread: "8-bit meets fabric",
+            arcadeAdventures: "Gaming culture in South Park"
+        }
+    },
+    {
+        id: "mash28",
+        name: "South Park × Sewnified Superheroes",
+        description: "Marvel and DC heroes get the button-eye treatment",
+        combination: "Superhero dolls in Colorado",
+        theme: "Stitched justice league",
+        features: {
+            heroicButtons: "All superheroes sewnified",
+            powerStitching: "Superpowers + magical thread",
+            capeAndButtons: "Sewn capes and button eyes",
+            assembleTheDolls: "Button-eyed Avengers unite"
         }
     }
 ];
@@ -966,4 +1202,6 @@ console.log(`📺 ${seasonSpecificIntros.length} season-specific intros`);
 console.log(`🎮 Including Baby Yoshi Singing from NSMBU!`);
 console.log(`📺 ${productionLogos.length} production logos (Opening/Closing)!`);
 console.log(`🇰🇼 Including Block 13 (Kuwait/Middle Eastern South Park)!`);
-console.log(`🧵 Including Lalaloopsy Sewn-iverse with 8 characters + 5 mashups!`);
+console.log(`🧵 Including Lalaloopsy Sewn-iverse with 21 characters + 11 mashups!`);
+console.log(`🎓 L.A.L.A Prep School (Teen Lalaloopsy) + We're Lalaloopsy (2017 Reboot)!`);
+console.log(`✨ Sewnified Multifandom - Button eyes for EVERY character!`);
