@@ -330,6 +330,70 @@ const additionalMashups = [
     }
 ];
 
+// ===== PRODUCTION LOGOS (OPENING/CLOSING) =====
+const productionLogos = [
+    {
+        id: "logo1",
+        name: "South Park Digital Studios Logo",
+        type: "Closing Logo",
+        years: "2008-Present",
+        description: "Mountain town silhouette with studio text",
+        appearance: "End of episodes",
+        soundDescription: "Brief music sting",
+        notes: "Primary closing logo for South Park productions"
+    },
+    {
+        id: "logo2",
+        name: "Sony Pictures Television Logo",
+        type: "Opening/Closing Logo",
+        years: "Various",
+        description: "Sony Pictures Television production logo",
+        appearance: "Beginning or end of episodes",
+        soundDescription: "Signature Sony fanfare",
+        notes: "Distribution company logo"
+    },
+    {
+        id: "logo3",
+        name: "Comedy Central Logo",
+        type: "Opening Logo",
+        years: "1997-Present",
+        description: "Comedy Central network branding",
+        appearance: "Beginning of broadcast",
+        soundDescription: "Network audio sting",
+        notes: "Network identification logo"
+    },
+    {
+        id: "logo4",
+        name: "Paramount+ Logo",
+        type: "Opening Logo",
+        years: "2021-Present",
+        description: "Streaming service logo for Paramount+",
+        appearance: "Beginning of streaming episodes",
+        soundDescription: "Paramount+ audio theme",
+        notes: "Used on streaming platform"
+    },
+    {
+        id: "logo5",
+        name: "Braniff Productions Vanity Card",
+        type: "Closing Logo",
+        years: "1997-2008",
+        description: "Trey Parker and Matt Stone's production company",
+        appearance: "End of early episodes",
+        soundDescription: "Silent or brief audio",
+        notes: "Original production company logo"
+    },
+    {
+        id: "logo6",
+        name: "Important Studios Logo",
+        type: "Closing Logo",
+        years: "Various",
+        description: "Production company vanity card",
+        appearance: "End of episodes",
+        soundDescription: "Brief sting",
+        notes: "Parker/Stone production entity"
+    }
+];
+
 // ===== SEASON-SPECIFIC INTRO VARIATIONS =====
 const seasonSpecificIntros = [
     {
@@ -411,6 +475,41 @@ const themeSongVariations = {
     ]
 };
 
+function loadProductionLogos() {
+    const grid = document.getElementById('productionLogosGrid');
+    if (!grid) return;
+
+    grid.innerHTML = '';
+    productionLogos.forEach(logo => {
+        const card = document.createElement('div');
+        card.className = 'logo-card';
+        card.innerHTML = `
+            <div class="logo-header">
+                <h3>${logo.name}</h3>
+                <span class="logo-type-badge">${logo.type}</span>
+            </div>
+            <div class="logo-years">${logo.years}</div>
+            <div class="logo-description">
+                <p>${logo.description}</p>
+            </div>
+            <div class="logo-details">
+                <div class="detail-item">
+                    <strong>Appears:</strong> ${logo.appearance}
+                </div>
+                <div class="detail-item">
+                    <strong>Sound:</strong> ${logo.soundDescription}
+                </div>
+                ${logo.notes ? `
+                    <div class="detail-item logo-notes">
+                        <strong>Notes:</strong> ${logo.notes}
+                    </div>
+                ` : ''}
+            </div>
+        `;
+        grid.appendChild(card);
+    });
+}
+
 // Export all new data
 window.expandedAUIntros = expandedAUIntros;
 window.evenMoreCrossoverLines = evenMoreCrossoverLines;
@@ -419,6 +518,7 @@ window.additionalMashups = additionalMashups;
 window.seasonSpecificIntros = seasonSpecificIntros;
 window.introLineTemplates = introLineTemplates;
 window.themeSongVariations = themeSongVariations;
+window.productionLogos = productionLogos;
 
 // ===== LOAD FUNCTIONS =====
 
@@ -620,9 +720,11 @@ window.loadMoreAUs = loadMoreAUs;
 window.loadThemeGenerator = loadThemeGenerator;
 window.generateAdvancedTheme = generateAdvancedTheme;
 window.playCustomTheme = playCustomTheme;
+window.loadProductionLogos = loadProductionLogos;
 
 console.log('🌟 ULTIMATE MEGA EXPANSION Loaded!');
 console.log(`💫 Added: ${expandedAUIntros.length} new AU intros, ${evenMoreCrossoverLines.length} more crossover lines`);
 console.log(`🎵 ${introStyleGenerators.length} style generators, ${additionalMashups.length} additional mashups`);
 console.log(`📺 ${seasonSpecificIntros.length} season-specific intros`);
 console.log(`🎮 Including Baby Yoshi Singing from NSMBU!`);
+console.log(`📺 ${productionLogos.length} production logos (Opening/Closing)!`);

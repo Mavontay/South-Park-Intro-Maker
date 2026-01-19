@@ -607,6 +607,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Load mega expansion features
         if (typeof loadMoreAUs !== 'undefined') loadMoreAUs();
         if (typeof loadThemeGenerator !== 'undefined') loadThemeGenerator();
+        if (typeof loadProductionLogos !== 'undefined') loadProductionLogos();
     }, 100);
 });
 
