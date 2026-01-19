@@ -594,6 +594,15 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeGenerator();
     initializeCustomBuilder();
     setupPlaybackControls();
+
+    // Load new extended features
+    setTimeout(() => {
+        if (typeof loadExtendedIntros !== 'undefined') loadExtendedIntros();
+        if (typeof loadMoreCrossovers !== 'undefined') loadMoreCrossovers();
+        if (typeof loadVideoGames !== 'undefined') loadVideoGames();
+        if (typeof initializeSilvaGunner !== 'undefined') initializeSilvaGunner();
+        if (typeof initializeEpisodeGenerator !== 'undefined') initializeEpisodeGenerator();
+    }, 100);
 });
 
 // ===== TAB FUNCTIONALITY =====
