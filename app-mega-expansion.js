@@ -391,6 +391,56 @@ const productionLogos = [
         appearance: "End of episodes",
         soundDescription: "Brief sting",
         notes: "Parker/Stone production entity"
+    },
+    {
+        id: "logo7",
+        name: "[adult swim] Logo",
+        type: "Closing Logo",
+        years: "2002-Present",
+        description: "Black screen with white lowercase [adult swim] text",
+        appearance: "End of Adult Swim broadcasts",
+        soundDescription: "Ambient sound or silence",
+        notes: "Appears when South Park airs on Adult Swim late-night block"
+    },
+    {
+        id: "logo8",
+        name: "Williams Street Logo",
+        type: "Closing Logo",
+        years: "2001-Present",
+        description: "Williams Street production company logo",
+        appearance: "End of Adult Swim programming",
+        soundDescription: "Brief tone or ambient sound",
+        notes: "Adult Swim's in-house production company"
+    },
+    {
+        id: "logo9",
+        name: "[adult swim] Bump Card",
+        type: "Closing Bump",
+        years: "2001-Present",
+        description: "Minimalist text cards with [adult swim] branding",
+        appearance: "Between shows and commercial breaks",
+        soundDescription: "Lo-fi hip hop or ambient music",
+        notes: "Iconic bumps featuring viewer messages and random text"
+    },
+    {
+        id: "logo10",
+        name: "Cartoon Network Logo (Adult Swim)",
+        type: "Closing Logo",
+        years: "2001-Present",
+        description: "Cartoon Network logo with Adult Swim context",
+        appearance: "End of late-night broadcasts",
+        soundDescription: "Network jingle or tone",
+        notes: "Parent network identification for Adult Swim programming"
+    },
+    {
+        id: "logo11",
+        name: "Turner Broadcasting System Logo",
+        type: "Closing Logo",
+        years: "Various",
+        description: "TBS corporate logo for Turner networks",
+        appearance: "End of Turner network broadcasts",
+        soundDescription: "Corporate fanfare",
+        notes: "Parent company logo for Cartoon Network/Adult Swim"
     }
 ];
 
