@@ -603,6 +603,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (typeof loadGameCrossovers !== 'undefined') loadGameCrossovers();
         if (typeof initializeSilvaGunner !== 'undefined') initializeSilvaGunner();
         if (typeof initializeEpisodeGenerator !== 'undefined') initializeEpisodeGenerator();
+
+        // Load mega expansion features
+        if (typeof loadMoreAUs !== 'undefined') loadMoreAUs();
+        if (typeof loadThemeGenerator !== 'undefined') loadThemeGenerator();
     }, 100);
 });
 

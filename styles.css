@@ -777,6 +777,133 @@ footer {
     font-size: 0.9em;
 }
 
+/* More AUs Grid */
+.moreaus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+}
+
+.moreau-card {
+    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 100%);
+    border: 3px solid #9c27b0;
+    border-radius: 12px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.moreau-card::before {
+    content: '✨';
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    font-size: 80px;
+    opacity: 0.1;
+}
+
+.moreau-card:hover {
+    transform: translateY(-5px) rotate(1deg);
+    box-shadow: 0 10px 25px rgba(156,39,176,0.5);
+    border-color: #e1bee7;
+}
+
+.moreau-card h3 {
+    color: #e1bee7;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.au-concept {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.au-features {
+    background: rgba(225,190,231,0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.au-features ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style-type: "⭐ ";
+}
+
+.au-lyrics-preview {
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 0.9em;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+/* Theme Generator Section */
+.theme-generator-section {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px;
+}
+
+.theme-gen-controls {
+    background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+}
+
+.theme-gen-controls h3 {
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.theme-option {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.theme-option:hover {
+    background: rgba(255,255,255,0.2);
+    border-color: #00bcd4;
+    transform: scale(1.02);
+}
+
+.theme-option.selected {
+    background: rgba(0,188,212,0.3);
+    border-color: #00bcd4;
+}
+
+.theme-gen-output {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 3px solid #00bcd4;
+    min-height: 500px;
+}
+
+.generated-theme {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #2196f3;
+}
+
 /* Game Crossovers Grid */
 .game-crossovers-grid {
     display: grid;

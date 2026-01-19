@@ -59,6 +59,31 @@ Unique intro lines combining South Park with:
 7. **Horror Movie South Park** - Slasher film parody
 8. **Anime South Park** - Japanese anime style
 
+### ✨ EVEN MORE AU Intros (8 Additional Crossover Universes!)
+Epic crossovers with complete lyrics and features:
+
+**Anime/Game Crossovers:**
+1. **Southtale (× Undertale)** - Underground monster kingdom meets Colorado
+   - DETERMINATION mechanics, SOUL battles, Genocide/Pacifist routes, Sans boss fight
+2. **South Park Academia (× My Hero Academia)** - Quirk-powered superhero school
+   - Plus Ultra training, Quirk abilities, Hero licensing, Sports festivals
+3. **South Park Ninja (× Naruto)** - Hidden Leaf Village Colorado branch
+   - Jutsu techniques, Ninja missions, Hokage dreams, Shadow clones
+4. **Digital South Park (× Digimon)** - Digidestined kids and partners
+   - Digivolution, Digital World, Partner Digimon, DigiDestined
+5. **Demon Slayer South Park (× Kimetsu no Yaiba)** - Breathing techniques
+   - Total Concentration, Nichirin blades, Hashira training, Demon battles
+
+**Doll/Fashion Crossovers:**
+6. **Monster High Park** - Freaky fab monsters at South Park Elementary
+   - Monster students, Clawesome fashion, Skullette spirit, Creeperific fun
+7. **Rainbow High Park** - High fashion meets mountain town
+   - Rainbow Vision, Fashion design, Style challenges, Runway shows
+8. **South Ponies (× My Little Pony)** - Friendship is magic in Colorado
+   - Cutie marks, Elements of Harmony, Friendship lessons, Pony magic
+
+Each includes complete intro lyrics, feature lists, and full concept descriptions!
+
 ### ⏰ Extended Intros (6 Versions)
 Longer versions with additional content:
 - **Super Extended Mix (3 Minutes)** - Extended verses and instrumental breaks
@@ -154,6 +179,23 @@ Create your own unique South Park intro by combining:
 - Pitch control (-12 to +12 semitones)
 - Audio effects (Reverb, Echo, Distortion)
 
+### 🎵 Advanced Theme Song Generator
+Next-level theme song creation with professional controls:
+- **Tempo Variations**: Molto Adagio, Larghissimo, Allegro Vivace, Prestissimo (0.3x - 2.5x)
+- **Pitch Shifts**: Bass Boosted, Soprano High, Perfect Fifth, Octave Up (-8 to +12 semitones)
+- **Effect Combinations**: Arena Concert, Underwater, Phone Quality, Cosmic Space
+- **Style Generators**: 8 additional styles including:
+  - Retro 80s Synthwave, Epic Cinematic Trailer, Lo-Fi Anime Opening
+  - Gangsta Rap West Coast, Celtic Folk, Screamo/Deathcore
+  - Kawaii Future Bass, Viking War Chant
+
+### 🌈 EVEN MORE Crossover Lines (10+ Additional)
+New crossover intro lines featuring:
+- Five Nights at Freddy's, Sonic the Hedgehog, The Legend of Zelda
+- Harry Potter, Ben 10, Teen Titans
+- Scooby-Doo, Dragon Ball, Transformers
+- FNAF Security Breach
+
 ### ✏️ Custom Line Builder
 Write and save your own custom South Park intro lines:
 - Add character names
@@ -219,15 +261,23 @@ Write and save your own custom South Park intro lines:
 - **10** Different intro variations
 - **6** Extended intro versions
 - **10** Mashup combinations
+- **5** Additional mashup concepts
 - **10** Original crossover intro lines
-- **10+** Additional crossover concepts
-- **8** Alternate Universe complete intros
+- **10** Additional franchise crossover lines
+- **10** EVEN MORE crossover concepts
+- **8** Original Alternate Universe complete intros
+- **8** NEW Expanded AU intros (Southtale, Monster High Park, etc.)
 - **15** Musical style variations
+- **8** Advanced style generators
 - **5** SiIvaGunner rip concepts
 - **4** Video game end credits
 - **12** Video game crossover concepts
+- **5** Season-specific intro variations
 - **Random** Episode generator
-- **Unlimited** custom combinations via generators
+- **Advanced** Theme song generator with pro controls
+- **Unlimited** custom combinations via multiple generators
+
+**TOTAL: 100+ pre-built variations + MILLIONS of custom combinations!**
 
 ### Total Possibilities
 With the custom generators, you can create:
