@@ -207,6 +207,14 @@ const evenMoreCrossoverLines = [
         line: "I'm goin' to the Pizzaplex in South Park, Glamrock Freddy's here!",
         description: "Mega Pizzaplex opens in Colorado",
         concept: "Superstar daycare meets mountain town"
+    },
+    {
+        id: "cross31",
+        franchise: "Baby Yoshi Singing (NSMBU)",
+        line: "♪ Ba-dum ba-dum, I'm goin' down to South Park! ♪ La-la-la-la! ♪",
+        description: "Baby Yoshi from New Super Mario Bros. U sings the South Park theme",
+        concept: "Musical Baby Yoshi brings Nintendo magic to Colorado",
+        features: ["Baby Yoshi vocal effects", "Singing stuns enemies", "Musical bubbles", "Mario power-ups"]
     }
 ];
 
@@ -306,6 +314,19 @@ const additionalMashups = [
         description: "Boiling Isles portal to South Park",
         combination: "Magic meets Colorado",
         theme: "Fantasy comedy"
+    },
+    {
+        id: "mash16",
+        name: "South Park × New Super Mario Bros. U",
+        description: "Baby Yoshi sings the South Park theme with musical bubbles",
+        combination: "Nintendo platforming meets mountain town",
+        theme: "Musical platformer adventure",
+        features: {
+            babyYoshi: "Baby Yoshi types (Pink, Blue, Yellow)",
+            singingMechanic: "Musical bubbles stun enemies",
+            powerUps: "Mario power-ups in South Park",
+            coopMode: "4-player cooperative gameplay"
+        }
     }
 ];
 
@@ -604,3 +625,4 @@ console.log('🌟 ULTIMATE MEGA EXPANSION Loaded!');
 console.log(`💫 Added: ${expandedAUIntros.length} new AU intros, ${evenMoreCrossoverLines.length} more crossover lines`);
 console.log(`🎵 ${introStyleGenerators.length} style generators, ${additionalMashups.length} additional mashups`);
 console.log(`📺 ${seasonSpecificIntros.length} season-specific intros`);
+console.log(`🎮 Including Baby Yoshi Singing from NSMBU!`);
